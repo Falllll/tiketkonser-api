@@ -1,11 +1,7 @@
 @extends('layouts.admin')
 @section('content')
 @can('project_create')
-    <div class="block my-4">
-        <a class="btn-md btn-green" href="{{ route('admin.projects.create') }}">
-            {{ trans('global.add') }} {{ trans('cruds.project.title_singular') }}
-        </a>
-    </div>
+
 @endcan
 <div class="main-card">
     <div class="header">

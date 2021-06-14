@@ -66,8 +66,8 @@ return [
         ],
     ],
     'project'        => [
-        'title'          => 'Projects',
-        'title_singular' => 'Project',
+        'title'          => 'Confirms',
+        'title_singular' => 'Confirm',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',
@@ -84,14 +84,14 @@ return [
         ],
     ],
     'folder'         => [
-        'title'          => 'Folders',
-        'title_singular' => 'Folder',
+        'title'          => 'Tickets',
+        'title_singular' => 'Ticket',
         'fields'         => [
             'id'                => 'ID',
             'id_helper'         => '',
             'name'              => 'Name',
             'name_helper'       => '',
-            'project'           => 'Project',
+            'project'           => 'band',
             'project_helper'    => '',
             'files'             => 'Files',
             'files_helper'      => '',
@@ -101,7 +101,7 @@ return [
             'updated_at_helper' => '',
             'deleted_at'        => 'Deleted at',
             'deleted_at_helper' => '',
-            'folder'            => 'Folder',
+            'folder'            => 'place',
             'folder_helper'     => '',
         ],
     ],
